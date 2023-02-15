@@ -1,0 +1,217 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    }
+    
+    body {
+    margin: 0;
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-image: url("CLOUD.PNG");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .form-register {
+    width: 400px;
+    background: #A406EE;
+    padding: 9px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 24px;
+    text-align: center;
+    font-family: 'arial';
+    color: white;
+    }
+
+    .form-register {
+    padding: 60px;
+    }
+    
+    .column {
+    justify-content: center;
+    column-count: 2;
+    column-gap: 500px;
+    width: 50%;
+    }
+      
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    .btn1 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+        
+        .btn2 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+        
+        .btn3 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+            
+        .btn4 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+        
+        .btn5 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+                
+        .btn6 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+        
+        .btn7 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+            
+        .btn8 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+            
+        .btn9 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+                
+        .btn10 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+            
+        .btn11 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+                    
+        .btn12 {
+        background-color: #F7E509;
+        border: 0px;
+        padding: 20px;
+        width: 260px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 4px;
+        }
+    
+    .pie {
+    background-color: rgba(255, 21, 235, 0.863);
+    padding: 1em 0;
+    text-align: center;
+    }    
+    
+    .botons {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00bb2d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 16px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+            
+    .botons span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+              
+    .botons span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+              
+    .botons:hover span {
+    padding-right: 25px;
+    }
+              
+    .botons:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+

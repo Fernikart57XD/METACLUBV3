@@ -1,34 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-*{
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-    
-    body {
-    margin: 0;
-    background-color: #333;
-    font-family: sans-serif;
-    color: aliceblue;
+    background-color: #036975;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 6, 10);
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
-    background-image: url("CLOUD.PNG");
+    background-image: url("ESPACIOXD.jpg");
     height: 100%;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
-    .pie {
+.form-register {
+    width: 200px;
+    background: #A406EE;
+    padding: 9px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 24px;
+    text-align: center;
+    font-family: 'arial';
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.46);
+}
+
+.pie {
     background-color: rgba(255, 21, 235, 0.863);
     padding: 1em 0;
     text-align: center;
     }    
     
-    .botons {
+    .return {
     display: inline-block;
     border-radius: 4px;
     background-color: #00bb2d;
@@ -43,14 +54,14 @@
     margin: 5px;
     }
             
-    .botons span {
+    .return span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
     }
               
-    .botons span:after {
+    .return span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -59,12 +70,11 @@
     transition: 0.5s;
     }
               
-    .botons:hover span {
+    .return:hover span {
     padding-right: 25px;
     }
               
-    .botons:hover span:after {
+    .return:hover span:after {
     opacity: 1;
     right: 0;
     }
-

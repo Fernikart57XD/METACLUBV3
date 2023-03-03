@@ -1,0 +1,27 @@
+.form-register {
+    width: 200px;
+    background: #A406EE;
+    padding: 9px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 24px;
+    text-align: center;
+    font-family: 'arial';
+    color: white;
+    }
+    
+    .column {
+    justify-content: center;
+    column-count: 3;
+    column-gap: 500px;
+    width: 50%;
+    }
+      
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    

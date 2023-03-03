@@ -11,7 +11,6 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     font-family: 'arial';
-    background-color: rgb(37, 182, 254);
     color: #333;
 }
 
@@ -35,7 +34,6 @@ header {
 
 .item {
     border-radius: 10px;
-    background-color: #13fc7c;
 }
 
 .item:hover{
